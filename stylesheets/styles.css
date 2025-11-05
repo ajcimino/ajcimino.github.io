@@ -55,7 +55,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:960px; /* increased by 100px to reduce side margins */
   margin:0 auto;
 }
 
@@ -104,7 +104,7 @@ img {
 }
 
 header {
-  width:340px; /* widened by 70px */
+  width:340px; /* widened header */
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -170,7 +170,7 @@ header ul a strong {
 }
 
 section {
-  width:430px; /* reduced to keep total width 860 */
+  width:530px; /* increased to maintain balance with wider wrapper */
   float:right;
   padding-bottom:50px;
 }
